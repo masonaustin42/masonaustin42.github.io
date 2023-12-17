@@ -58,7 +58,7 @@
 }
 .section-title h2:before,
 .section-title h2:after {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   border: 8px solid transparent;
@@ -101,7 +101,7 @@
   background: #1da1f3;
   color: #fff;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
 }
 .btn-main:hover {
@@ -113,7 +113,7 @@
   background: transparent;
   color: #fff;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   border: 2px solid #1da1f3;
 }
@@ -122,7 +122,7 @@
   color: #fff;
 }
 .btn-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
 }
 /*navbar fixed styling */
@@ -205,7 +205,7 @@
   3. General Style 
 ************************************************************/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #615978;
 }
@@ -243,7 +243,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #222;
 }
 /* Dark Mode Styling */
@@ -296,7 +296,7 @@ h6 {
 .site-header a {
   color: #fff;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 .site-header a:hover,
@@ -318,7 +318,7 @@ h6 {
   z-index: 1;
 }
 .hero-area:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -382,25 +382,36 @@ h6 {
 .hero-area .hero-icons li:first-child {
   left: 96px;
   top: -30px;
-  background: #21759b;
+  background: #222222;
+  color: #61dafb;
   transform: rotate(14deg);
 }
 .hero-area .hero-icons li:nth-child(2) {
   right: -24px;
   top: 60px;
-  background: #f55247;
+  background: #303030;
+  color: #529f41;
   transform: rotate(-8deg);
 }
 .hero-area .hero-icons li:nth-child(3) {
   left: 96px;
   bottom: 96px;
-  background: #7ac143;
+  background: #ffffff;
   transform: rotate(-7deg);
+}
+.hero-area .hero-icons li:nth-child(3) img {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  object-fit: contain;
+  vertical-align: middle;
+  display: inline-block;
 }
 .hero-area .hero-icons li:nth-child(4) {
   right: -24px;
   bottom: 36px;
-  background: #0077c0;
+  background: #ffffff;
+  color: #f05032;
   transform: rotate(12deg);
 }
 .hero-area .tech-tools span {
@@ -471,7 +482,7 @@ h6 {
   transition: 0.3s;
 }
 .intro-section .item-wrapper:after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   position: absolute;
@@ -522,7 +533,7 @@ h6 {
 .about-section .img-wrapper:before,
 .about-section .img-wrapper:after {
   position: absolute;
-  content: '';
+  content: "";
 }
 .about-section .img-wrapper:before {
   width: 60px;
@@ -595,13 +606,13 @@ h6 {
 ************************************************************/
 .skill-section {
   background-color: #303c46;
-  background: url('../image/skill-bg.jpg') no-repeat center center;
+  background: url("../image/skill-bg.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
   z-index: 1;
 }
 .skill-section:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -696,7 +707,7 @@ h6 {
 }
 .portfolio-section .box:before,
 .portfolio-section .box:after {
-  content: '';
+  content: "";
   background: #1da1f3;
   height: 50%;
   width: 100%;
@@ -966,7 +977,7 @@ h6 {
   margin-bottom: 12px;
 }
 .features-section h4 span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #615978;
   font-size: 70%;
   float: right;
@@ -1011,14 +1022,14 @@ h6 {
 ************************************************************/
 .testimonial-section {
   background-color: #303c46;
-  background: url('../image/testimonial-bg.jpg') no-repeat center center;
+  background: url("../image/testimonial-bg.jpg") no-repeat center center;
   background-size: cover;
   padding-bottom: 107px;
   position: relative;
   z-index: 1;
 }
 .testimonial-section:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -1037,7 +1048,7 @@ h6 {
   box-shadow: 0 10px 30px rgba(176, 18, 6, 0.1);
 }
 .testimonial-section .item-wrapper:after {
-  content: '';
+  content: "";
   width: 90%;
   height: 90%;
   position: absolute;
@@ -1058,7 +1069,7 @@ h6 {
   display: block;
   margin-top: 8px;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #948daa;
 }
 .testimonial-section .quote-icon {
@@ -1121,7 +1132,7 @@ h6 {
 }
 .blog-section .post-meta li a {
   color: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   text-transform: initial;
   transition: 0.3s;
@@ -1138,7 +1149,7 @@ h6 {
   overflow: hidden;
 }
 .blog-section .image-wrapper:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -1396,7 +1407,7 @@ h6 {
   font-size: 24px;
 }
 .contact-section a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #615978;
   text-transform: initial;
   transition: 0.3s;
@@ -1436,7 +1447,7 @@ h6 {
   box-shadow: none;
 }
 .contact-section button {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
 }
 .contact-section .form-message p {
@@ -1487,7 +1498,7 @@ h6 {
 ************************************************************/
 .site-footer {
   background-color: #303c46;
-  background: url('../image/footer-bg.jpg') no-repeat center center;
+  background: url("../image/footer-bg.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 90px;
   padding-bottom: 60px;
@@ -1495,7 +1506,7 @@ h6 {
   z-index: 1;
 }
 .site-footer:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -1576,7 +1587,7 @@ h6 {
   margin-bottom: 0;
 }
 .site-footer .footer-bottom ul a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #b0aac0;
   text-transform: capitalize;
   font-size: 16px;
@@ -1611,7 +1622,7 @@ h6 {
   height: 35px;
   margin: 0 10px 0 10px;
   border-radius: 50%;
-  background: #FFF;
+  background: #fff;
   -webkit-animation: dot-dot-dot 1.4s linear infinite;
   animation: dot-dot-dot 1.4s linear infinite;
 }
