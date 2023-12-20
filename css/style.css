@@ -606,8 +606,10 @@ h6 {
 ************************************************************/
 .skill-section {
   background-color: #303c46;
-  background: url("../image/skill-bg.jpg") no-repeat center center;
-  background-size: cover;
+  /* background: url("../image/skill-bg.jpg") no-repeat center center; */
+  /* background-size: cover; */
+  width: 0;
+  height: 0;
   position: relative;
   z-index: 1;
 }
@@ -673,7 +675,7 @@ h6 {
 .portfolio-section {
   padding-bottom: 100px;
   position: relative;
-  /* portfolio detials styling */
+  /* portfolio details styling */
 }
 .portfolio-section .row > div {
   margin-bottom: 24px;
@@ -1393,6 +1395,7 @@ h6 {
 .contact-section {
   padding-bottom: 60px;
   position: relative;
+  background-color: #2a2a2a;
   /* contact form message */
 }
 .contact-section .icon-box {
